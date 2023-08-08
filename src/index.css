@@ -1,0 +1,141 @@
+body {
+  margin: 0;
+  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", "Roboto", "Oxygen",
+    "Ubuntu", "Cantarell", "Fira Sans", "Droid Sans", "Helvetica Neue",
+    sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, "Courier New",
+    monospace;
+}
+.py-c-20 {
+  padding: 20px !important;
+  /* width: 406px !important; */
+  white-space: pre-line !important;
+}
+.h-450 {
+  height: 450px !important;
+}
+/* Talent Dashboard */
+.w-406 {
+  max-width: 406px !important;
+}
+.w-350 {
+  width: 350px !important;
+}
+.pyc-12 {
+  padding: 12px 24px !important;
+}
+
+.h-685 {
+  height: 645px !important;
+  box-sizing: border-box !important;
+}
+.h-custom {
+  height: 100% !important;
+}
+
+.table-custom ::-webkit-scrollbar {
+  width: 15px !important;
+}
+
+.card-border-custom {
+  border-radius: 0 !important;
+}
+
+.header-border-radius {
+  border-top-right-radius: 10px;
+  border-top-left-radius: 10px;
+}
+.textc-9 {
+  font-size: 10px !important;
+}
+.borderc-6 {
+  border-radius: 6px !important;
+}
+
+.hc-fit {
+  height: fit-content !important;
+}
+
+.height-org-tree {
+  height: 971px;
+}
+
+/* Tree */
+.App-Tree {
+  font-family: sans-serif;
+  text-align: center;
+}
+
+.myLabelComponentInSvg {
+  height: fit-content !important;
+  /* width: 180px; */
+  margin: 10px;
+}
+.custom-img-talent {
+  filter: drop-shadow(0px 0px 4px rgba(0, 0, 0, 0.25));
+  border: 2px solid #ffffff;
+}
+.btn-tree {
+  border-radius: 22px !important;
+}
+.mbc-8 {
+  margin-bottom: 8px !important;
+}
+.hc-50 {
+  height: 50px !important;
+}
+
+.wc-250 {
+  width: 230px !important;
+}
+.wc-100 {
+  width: 150px !important;
+}
+.borderTopRightNull {
+  border-top-right-radius: 0 !important;
+}
+
+.longtext {
+  width: 1px;
+  min-width: 100%;
+}
+.main-content {
+  background-color: #f5f4f8;
+}
+
+.carousel-custom .carousel-indicators {
+  visibility: hidden;
+}
+
+.text-area-post-ezone:focus {
+  outline: none !important;
+}
+
+.input-outline-none:active,
+.input-outline-none:focus,
+.input-outline-none:hover {
+  border: none !important;
+  outline: none !important;
+}
+
+/* #iframe-container .NavBar {
+  display: none !important;
+}
+
+#iframe-container .view-app-bar-commandBar {
+  display: none !important;
+} */
+
+.custom-dropdown-wrapper .dropdown-menu {
+  right: 0;
+  left: auto;
+}
+
+.my-modal-50 {
+  min-width: 50% !important;
+}

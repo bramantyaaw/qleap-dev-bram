@@ -1,0 +1,222 @@
+.subs-wrapper,
+.home-wrapper {
+  background-color: #f5f4f8;
+}
+.subs-wrapper {
+  font-family: "Inter", sans-serif;
+}
+.header-img {
+  background-repeat: "no-repeat";
+  background-size: "cover";
+  width: 100%;
+  height: 121px;
+}
+.first-header-wrapper {
+  margin-top: 90px;
+}
+.header-name {
+  margin-top: 30px;
+}
+.header-name p:first-child {
+  font-size: 22px;
+  font-weight: 500;
+  color: #18113c;
+}
+.header-name p:nth-child(2) {
+  font-size: 13px;
+  font-weight: 400;
+  color: #5c5776;
+}
+.wrapper-btn-submit {
+  margin-top: 47px;
+}
+.btn-submit-header {
+  background-color: #2642ca;
+  color: #fff;
+  text-decoration: none;
+  padding: 12px 21px;
+  border-radius: 4px;
+  font-size: 14px;
+}
+.btn-submit-header:hover {
+  background-color: #192c8b;
+  color: #fff;
+}
+.search-form {
+  position: relative;
+}
+.search-form svg {
+  position: absolute;
+  top: 10px;
+  left: 15px;
+}
+.search-form input {
+  padding-left: 50px;
+  padding-top: 7px;
+  padding-bottom: 7px;
+  width: 224px;
+  border: 1px solid #e8e7ed;
+  margin-right: 18px;
+}
+.search-form input:focus {
+  -webkit-box-shadow: none;
+  box-shadow: none;
+  border-color: #abaab1;
+}
+.search-form input::placeholder {
+  color: #79758f !important;
+  opacity: 0.7;
+}
+.dropdown-sortby {
+  width: 100%;
+  height: 100%;
+}
+.dropdown-sortby button {
+  padding: 7px 12px;
+  background-color: transparent !important;
+  color: rgba(92, 87, 118, 0.5);
+  border: 1px solid #e8e7ed;
+  width: 100% !important;
+  height: 100% !important;
+}
+.dropdown-sortby button:hover,
+.dropdown-sortby button:active {
+  color: rgba(92, 87, 118, 0.5);
+  border: 1px solid #abaab1;
+}
+.card-content-wrapper .dropdown-toggle::after {
+  margin-left: 27px !important;
+}
+.card-header-ticketing {
+  padding: 16px 32px !important;
+  background-color: #fff !important;
+  border-bottom: 1px solid #e8e7ed !important;
+}
+.card-header-ticketing div p:nth-child(2) {
+  font-size: 14px;
+  font-weight: 400;
+  color: #5c5776;
+}
+.card-body-ticketing {
+  padding: 0 32px !important;
+}
+.card-body-ticketing .border-bottom {
+  padding: 30px 0 !important;
+}
+.card-header-ticketing p:first-child {
+  font-size: 18px;
+}
+.card-body-ticketing .border-bottom p:first-child {
+  font-size: 12px !important;
+  color: #5c5776;
+  font-weight: 400;
+  margin-bottom: 0;
+}
+.card-body-ticketing .border-bottom p:nth-child(2) {
+  font-size: 12px;
+  color: #1c1c1c;
+}
+.card-body-ticketing .border-bottom span {
+  margin-left: 0 !important;
+}
+.card-body-ticketing .border-bottom .disabled-btn,
+.card-body-ticketing .border-bottom button {
+  width: 105px;
+  height: 38px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border-radius: 4px;
+  font-size: 12px;
+}
+.closed-btn {
+  border: 1px solid #e4e3e9 !important;
+  color: #e4e3e9 !important;
+  background-color: transparent !important;
+  text-decoration: none;
+}
+.card-content-wrapper,
+.sidebar-ticket {
+  margin-top: 25px !important;
+}
+
+.close-ticket-wrapper {
+  background-color: #fff;
+  padding: 22px;
+  border-radius: 8px;
+  font-family: "Roboto", sans-serif;
+  font-weight: 500;
+  color: #000;
+}
+.close-ticket-wrapper p {
+  font-size: 19px;
+  text-align: center;
+}
+.btn-popup button:first-child {
+  margin-right: 67px;
+}
+.paginate-wrapper p:first-child {
+  margin-right: 13px;
+}
+.paginate-wrapper p {
+  font-size: 14px;
+  color: #777;
+}
+.profile-cover-ticket {
+  flex-direction: row;
+}
+.id-text {
+  font-size: 9px;
+  font-weight: 400;
+  color: #777;
+}
+.icon-ticket-overview {
+  margin-bottom: 2px;
+}
+.icon-ticket-service {
+  margin-bottom: 3px;
+}
+.font-header-submit {
+  z-index: 10;
+}
+
+.text-wrapper-submit {
+  left: 100px;
+  top: 30px;
+}
+.text-wrapper-submit h1 {
+  font-weight: 700;
+  font-size: 40px;
+  margin-top: 15px;
+}
+.text-wrapper-submit p {
+  font-size: 16px;
+  font-weight: 400;
+}
+
+@media only screen and (max-width: 768px) {
+  .profile-cover-ticket {
+    flex-direction: column;
+  }
+  .wrapper-btn-submit {
+    margin-top: 30px;
+    margin-bottom: 10px;
+    height: fit-content;
+  }
+  .text-wrapper-submit h1 {
+    font-size: 30px;
+  }
+  .sidebar-ticket {
+    margin-top: 0 !important;
+  }
+  .text-wrapper-submit {
+    left: 50px;
+  }
+}
+
+@media only screen and (max-width: 400px) {
+  .text-wrapper-submit {
+    left: 0;
+    top: 0;
+  }
+}

@@ -1,0 +1,74 @@
+.fw-10 {
+  font-size: 10px;
+}
+.fw-8 {
+  font-size: 8px;
+}
+.margin-custom-list {
+  margin-left: 42px !important;
+}
+.body-385 {
+  height: 385px;
+  overflow: auto;
+}
+
+/* width */
+.card-experience-outsite-era ::-webkit-scrollbar {
+  width: 15px !important;
+}
+.height-progress-bar {
+  height: 10px !important;
+}
+.custom-absolute-search {
+  top: 4px;
+  left: 10px;
+  z-index: 2;
+}
+.mbc-14 {
+  margin-bottom: 14px;
+}
+.py-3-5 {
+  padding: 14px 0 !important;
+}
+.h-280 {
+  height: 280px;
+}
+.fsc-48 {
+  font-size: 48px !important;
+}
+.fsc-32 {
+  font-size: 32px !important;
+}
+.fsc-24 {
+  font-size: 24px !important;
+}
+.fsc-20 {
+  font-size: 20px !important;
+}
+.fsc-16 {
+  font-size: 16px !important;
+}
+
+@media screen and (max-width: 768px) {
+  .margin-custom-list {
+    margin-top: 8px !important;
+  }
+}
+
+@media screen and (max-width: 400px) {
+  .fsc-48 {
+    font-size: 44px !important;
+  }
+  .fsc-32 {
+    font-size: 28px !important;
+  }
+  .fsc-24 {
+    font-size: 16px !important;
+  }
+  .fsc-20 {
+    font-size: 16px !important;
+  }
+  .fsc-16 {
+    font-size: 14px !important;
+  }
+}

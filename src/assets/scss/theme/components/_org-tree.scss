@@ -1,0 +1,43 @@
+.process-line {
+  position: relative;
+  z-index: 1;
+
+  &::before {
+    content: "";
+    position: absolute;
+    top: 1rem;
+    left: 0;
+    right: 0;
+    margin: 0 80px;
+    width: 100px;
+    border-bottom: 1.5px solid #b8b8b8;
+    @media (max-width: 768px) {
+      display: none;
+    }
+    @media (max-width: 990px) {
+      width: 60px;
+    }
+  }
+}
+
+.process-line-sm {
+  position: relative;
+  z-index: 1;
+
+  &::before {
+    content: "";
+    position: absolute;
+    top: 1rem;
+    left: 0;
+    right: 0;
+    margin: 0 80px;
+    width: 20px;
+    border-bottom: 1.5px solid #b8b8b8;
+    @media (max-width: 768px) {
+      display: none;
+    }
+    @media (max-width: 990px) {
+      width: 20px;
+    }
+  }
+}

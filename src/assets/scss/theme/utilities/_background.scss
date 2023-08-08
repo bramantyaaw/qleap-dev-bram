@@ -1,0 +1,95 @@
+//
+// Extended from bootstrap
+//
+
+// Background
+
+// bg cover
+
+body {
+  display: contents;
+}
+
+.bg-cover {
+  background: no-repeat center center / cover;
+}
+
+// bg grayscale
+
+.bg-grayscale {
+  -webkit-filter: grayscale(100%);
+  filter: grayscale(100%);
+}
+
+// bg gradient
+.bg-colors-gradient {
+  // background: linear-gradient(280.04deg, #BAA9FB 0%, #DBBEFF 48.96%, #FFE0E0 100%)
+  //background: linear-gradient(100.07deg, #25BDD4 0.72%, #694CE1 97.52%)
+  background: linear-gradient(100.07deg, #adbbff 0.72%, #3c5dff 97.52%);
+}
+
+.bg-colors-gradient-reversed {
+  // background: linear-gradient(100.13deg, #2642CA 38.54% rgba(31, 67, 240, 0.38) 95.79%);
+  background: linear-gradient(100.13deg, #3952d0 38.54%, rgba(31, 67, 240, 0.38) 95.79%);
+
+}
+
+.bg-colors-default {
+  background: linear-gradient(180deg, #4666ff 0%, #243ebd 100%);
+}
+
+// bg auto
+
+.bg-auto {
+  @media (max-width: 1200px) {
+    background-size: auto !important;
+  }
+}
+
+// dot pattern
+
+// .dot-pattern {
+//   position: relative;
+//   &:after {
+//     content: "";
+//     position: absolute;
+//     bottom: 0;
+//     left: 0;
+//     background: url(../../../../assets/images/pattern/dots-pattern.svg)
+//       no-repeat;
+//     top: 0;
+//     right: 0;
+//   }
+// }
+
+.white-font {
+  color: white !important;
+}
+
+.black-font {
+  color: black !important;
+}
+
+.blue-font {
+  color: #576ade !important;
+}
+
+.text-left {
+  text-align: left;
+}
+
+.float-left {
+  float: left;
+}
+
+.font-weight-normal {
+  font-weight: 200;
+}
+
+.bg-wrapper {
+  background: #f5f4f8 !important;
+}
+
+.blue-primary{
+  background: #2642CA;
+}

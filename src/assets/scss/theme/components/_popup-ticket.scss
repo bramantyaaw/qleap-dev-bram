@@ -1,0 +1,119 @@
+.my-modal {
+  width: 80vw !important;
+  max-width: 80vw;
+}
+.my-modal-100 {
+  width: 100% !important;
+  height: 100% !important;
+}
+.my-modal-70 {
+  width: 70% !important;
+  max-width: 55% !important;
+}
+/* .loading-modal {
+      width: 20vw !important;
+      max-width: 20vw;
+    } */
+::-webkit-input-placeholder {
+  font-style: italic;
+}
+:-moz-placeholder {
+  font-style: italic;
+}
+::-moz-placeholder {
+  font-style: italic;
+}
+:-ms-input-placeholder {
+  font-style: italic;
+}
+
+.video-ticket-btn {
+  height: 23px;
+}
+.video-ticket-btn button {
+  height: 20px;
+  font-size: 10px;
+}
+.download-excel-btn {
+  height: 28px;
+}
+
+.download-excel-btn button {
+  color: #18113c;
+  font-size: 12px;
+  border-radius: 4px;
+  font-weight: 500;
+}
+.download-excel-btn .icon-clear {
+  right: 5px;
+  top: 0;
+  border-left: 1px solid #aaa;
+  padding-left: 5px;
+}
+
+.input-default {
+  border: 1px solid #aaa;
+}
+.label-input-excel {
+  border: 1px solid #aaa;
+  text-align: center;
+  color: #18113c;
+  font-size: 12px;
+  border-radius: 4px;
+  font-weight: 500;
+  height: 28px !important;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.label-input-excel:hover {
+  background-color: #aaa;
+  color: #fff;
+}
+.circle-upload {
+  height: 100px !important;
+}
+.btn-z-index {
+  z-index: 99 !important;
+}
+.file-detail-wrapper {
+  height: 31.85px;
+}
+.wrapper-div {
+  height: 31.85px !important;
+}
+/* .div-image, */
+.div-image img {
+  border-radius: 50% !important;
+  height: 200px;
+  width: 200px;
+}
+.icon-img-upload {
+  right: 43%;
+  color: #fff;
+}
+.icon-img-upload:hover {
+  color: #aaa;
+}
+.icon-file-upload {
+  right: 0;
+  top: 0;
+  padding-left: 3px !important;
+  margin-right: 3px;
+  border-left: 1px solid #aaa;
+}
+.fs-11 {
+  font-size: 11px;
+}
+
+@media (max-width: 580px) {
+  .download-excel-btn button {
+    height: 28px !important;
+  }
+  .my-modal,
+  .my-modal-70 {
+    width: 100% !important;
+    max-width: 95% !important;
+    /* margin: 20px !important; */
+  }
+}

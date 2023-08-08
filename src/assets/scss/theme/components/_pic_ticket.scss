@@ -1,0 +1,58 @@
+.w-33 {
+  width: 33%;
+}
+.w-63 {
+  width: 63%;
+}
+.cursor-not-allow {
+  cursor: not-allowed;
+}
+.border-w-5 {
+  border-width: 2px !important;
+}
+.bg-cyan {
+  background-color: #c5ede1;
+}
+.pic-divisi-title {
+  width: 200px !important;
+}
+.btn-pic-badge {
+  font-size: 12px;
+}
+
+.pic-ticketing-file {
+  height: 32px;
+}
+.pic-ticketing-file button {
+  padding: 2px;
+  width: 100px !important;
+  font-weight: 400;
+  border-top-right-radius: 0;
+  border-bottom-right-radius: 0;
+  background-color: white;
+  color: #18113c;
+  border: 1px solid #e8e7ed;
+  border-right: 0;
+  font-size: 12px;
+}
+.pic-ticketing-file button:hover,
+.pic-ticketing-file button:focus {
+  background-color: #eaeaea !important;
+  border: 1px solid #e8e7ed !important;
+  color: #18113c !important;
+  border-right: 0 !important;
+}
+.pic-ticketing-file input {
+  border-top-left-radius: 0;
+  border-bottom-left-radius: 0;
+  padding: 4px 20px;
+}
+
+@media (min-width: 768px) {
+  .w-33 {
+    width: 100%;
+  }
+  .w-63 {
+    width: 100%;
+  }
+}

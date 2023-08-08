@@ -1,0 +1,133 @@
+.navlink-disabled {
+  pointer-events: none;
+  cursor: default;
+  display: block;
+  padding: 0.25rem 0.75rem;
+  color: #a1a1a8;
+}
+.pointer-none {
+  pointer-events: none;
+}
+
+.navlink-disabled .nav-icon {
+  margin-right: 0.5rem;
+}
+
+.brief-info-text {
+  font-size: 18px;
+}
+.first-card-oboard {
+  border-bottom-left-radius: 0 !important;
+  border-bottom-right-radius: 0 !important;
+}
+.hero-onboard {
+  border-top-right-radius: 0 !important;
+  border-top-left-radius: 0 !important;
+  background-image: url("../../../images/svg/bg-onboard.svg");
+  background-repeat: "no-repeat" !important;
+  background-size: "cover" !important;
+  // background-position: right top !important;
+}
+.hero-onboard .card-body .btn {
+  height: 34px !important;
+  border: 0 !important;
+  border-color: transparent !important;
+  color: #2642ca !important;
+}
+.btn-start-boarding:hover {
+  background-color: #2642ca !important;
+  color: white;
+}
+.card-onboard {
+  background-color: rgba(119, 119, 119, 0.2);
+  filter: blur(0.3px);
+  border-radius: 16px;
+  cursor: not-allowed;
+}
+.first-card-onboard {
+  height: 280px;
+}
+.attention-onboard .card-body p:nth-child(2) {
+  font-size: 10px;
+}
+.attention-onboard .card-body p:nth-child(4) {
+  font-size: 8px;
+}
+.attention-onboard .little-text {
+  font-size: 10px;
+}
+.attention-onboard button {
+  font-size: 9px;
+  border-radius: 8px;
+}
+.icon-card-body-upgrade {
+  top: 0;
+  right: 10px;
+}
+.first-icon-card-body-upgrade {
+  top: 0;
+  right: -5px;
+}
+.sidebar-course-card {
+  border-radius: 0 !important;
+}
+.simplebar-placeholder {
+  width: 0 !important;
+  height: 0 !important;
+}
+.course-container {
+  min-height: 800px;
+}
+
+.navbar-default {
+  /* drop-shadow(0px 4px 5px rgba(0, 0, 0, 0.1)); */
+  box-shadow: 0px 4px 5px rgba(0, 0, 0, 0.1) !important;
+}
+
+.competency-button {
+  font-size: 9px;
+  border-radius: 8px;
+}
+
+.competency-card {
+  border-radius: 16px;
+}
+
+/* .left-arrow-assesment-course path,
+.material-icons,
+.icon-wrapper {
+  color: #e4e4e4 !important;
+} */
+/* .icon-wrapper-course:hover, */
+
+.icon-wrapper-course svg:hover {
+  color: #0b229a !important;
+}
+.rounded-6 {
+  border-radius: 6px;
+}
+.table-course-file {
+  background-color: #f1f5f9;
+}
+
+@media (min-width: 768) and (max-width: 990px) {
+  .navbar-default {
+    /* drop-shadow(0px 4px 5px rgba(0, 0, 0, 0.1)); */
+    box-shadow: 0px 4px 5px rgba(0, 0, 0, 0.1) !important;
+  }
+}
+
+@media screen and (max-width: 1199px) {
+  .attention-onboard .little-text {
+    font-size: 12px;
+  }
+  .attention-onboard button {
+    font-size: 12px;
+  }
+  .card-onboard {
+    height: 210px;
+  }
+  .second-card-onboard {
+    height: 300px;
+  }
+}

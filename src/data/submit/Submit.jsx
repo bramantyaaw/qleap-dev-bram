@@ -1,0 +1,42 @@
+export const Submit = [
+  {
+    id: 1,
+    letter_number: "100010001",
+    type: "Tunjangan Suka Duka",
+    submit_date: "Oct 5, 2022",
+    status_date: "Oct 10, 2022",
+    status: "Solved",
+  },
+  {
+    id: 2,
+    letter_number: "100010001",
+    type: "Reward Trip",
+    submit_date: "Oct 5, 2022",
+    status_date: "-",
+    status: "Process",
+  },
+  {
+    id: 3,
+    letter_number: "100010001",
+    type: "Offboarding",
+    submit_date: "Oct 5, 2022",
+    status_date: "Oct 15, 2022",
+    status: "Reject",
+  },
+  {
+    id: 3,
+    letter_number: "100010001",
+    type: "Offboarding",
+    submit_date: "Oct 5, 2022",
+    status_date: "Oct 15, 2022",
+    status: "Reject",
+  },
+  {
+    id: 3,
+    letter_number: "100010001",
+    type: "Offboarding",
+    submit_date: "Oct 5, 2022",
+    status_date: "Oct 15, 2022",
+    status: "Reject",
+  },
+];

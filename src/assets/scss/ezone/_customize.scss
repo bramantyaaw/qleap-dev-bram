@@ -1,0 +1,217 @@
+.rounded-xl {
+  border-radius: 30px !important;
+}
+
+.alert-dismissible {
+  padding-right: 3rem;
+}
+.alert-dismissible .btn-close {
+  position: absolute;
+  top: 0;
+  right: 0;
+  z-index: 2;
+  padding: 1.25rem 1rem;
+}
+
+.alert-primary {
+  color: #124698;
+  background-color: #d2e3ff;
+  border-color: #bcd5fe;
+}
+.alert-primary .alert-link {
+  color: #0e387a;
+}
+
+.alert-secondary {
+  color: #3e236e;
+  background-color: #e1d8f1;
+  border-color: #d1c4e9;
+}
+.alert-secondary .alert-link {
+  color: #321c58;
+}
+
+.alert-success {
+  color: #06562f;
+  background-color: #cff7e4;
+  border-color: #b7f3d6;
+}
+.alert-success .alert-link {
+  color: #054526;
+}
+
+.alert-info {
+  color: #17328a;
+  background-color: #d4ddfa;
+  border-color: #beccf8;
+}
+.alert-info .alert-link {
+  color: #12286e;
+}
+
+.alert-warning {
+  color: #98591d;
+  background-color: #ffead6;
+  border-color: #ffdfc1;
+}
+.alert-warning .alert-link {
+  color: #7a4717;
+}
+
+.alert-danger {
+  color: #890101;
+  background-color: #facccc;
+  border-color: #f7b3b3;
+}
+.alert-danger .alert-link {
+  color: #6e0101;
+}
+
+.alert-light {
+  color: #636363;
+  background-color: #fdfdfd;
+  border-color: #fdfdfd;
+}
+.alert-light .alert-link {
+  color: #4f4f4f;
+}
+
+.alert-dark {
+  color: #1f2326;
+  background-color: #d6d8d9;
+  border-color: #c2c4c6;
+}
+.alert-dark .alert-link {
+  color: #191c1e;
+}
+
+.nav-custom .nav-content {
+  width: 280px;
+  transition: all 0.2s ease;
+  padding-left: 15px;
+  padding-right: 15px;
+
+  // background: var(--theme-color);
+  @include media-breakpoint-down(md) {
+    width: auto;
+    .nav-wrap {
+      box-shadow: none !important;
+    }
+  }
+  @include media-breakpoint-up(lg) {
+    -webkit-border-radius: 0 10px 10px 0;
+    -moz-border-radius: 0 10px 10px 0;
+    border-radius: 0 10px 10px 0;
+  }
+  ul {
+    @include media-breakpoint-up(lg) {
+      // @include webkit-box();
+      // @include box-orient();
+    }
+    padding: 0;
+    margin: 0;
+
+    li.flex-lg-brackets {
+      @include media-breakpoint-up(lg) {
+        -webkit-box-flex: 1;
+        -webkit-flex: 1;
+        -moz-box-flex: 1;
+        -ms-flex: 1;
+        flex: 1;
+      }
+    }
+    li:not(.logo) {
+      list-style-image: none;
+      list-style-type: none;
+      margin: 1px 5px;
+      @include media-breakpoint-down(md) {
+        margin: 4px 0px;
+      }
+      a {
+        display: -webkit-box;
+        display: -ms-flexbox;
+        display: flex;
+        -webkit-box-align: center;
+        -ms-flex-align: center;
+        align-items: center;
+        padding: 12px 15px 12px 15px;
+        white-space: nowrap;
+        position: relative;
+        font-size: 15px;
+        font-weight: 600;
+        line-height: 28px;
+        color: #888;
+        height: 54px;
+        display: flex;
+        overflow: hidden;
+        transition: all 0.2s ease;
+        span {
+          font-size: 15px;
+          font-weight: 600;
+          line-height: 28px;
+          color: #888;
+          // display: inline-block;
+          transition: all 0.2s ease;
+          margin-right: auto;
+          padding-right: 10px;
+        }
+
+        i {
+          font-size: 20px;
+          color: #fff;
+          top: 0px;
+          position: relative;
+        }
+        .circle-icon {
+          content: "";
+          display: block;
+          width: 7px;
+          height: 7px;
+          padding: 0;
+          @include border-radius(7px);
+          position: absolute;
+          top: 6px;
+          right: 13px;
+        }
+        .circle-count {
+          padding: 1px 6px;
+          @include border-radius(7px);
+          position: absolute;
+          top: 6px;
+          display: inline-block;
+          color: #fff;
+          font-size: 13px;
+          right: 13px;
+        }
+      }
+    }
+    li.brackets {
+      // @include box-flex();
+    }
+    li > a.active {
+      background: linear-gradient(
+        135deg,
+        var(--theme-color),
+        var(--theme-color-shade)
+      ) !important;
+      span {
+        color: #fff;
+      }
+
+      @include border-radius(5px);
+      i {
+        color: #fff;
+      }
+    }
+    li > a:hover {
+      span {
+        color: var(--theme-color);
+      }
+    }
+    li > a.active:hover {
+      span {
+        color: #fff !important;
+      }
+    }
+  }
+}
